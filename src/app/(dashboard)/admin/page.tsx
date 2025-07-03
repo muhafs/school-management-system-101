@@ -3,6 +3,7 @@ import AttendanceChart from '@/components/Chart/AttendanceChart'
 import CountChart from '@/components/Chart/CountChart'
 import FinanceChart from '@/components/Chart/FinanceChart'
 import EventCalendar from '@/components/Calendar/EventCalendar'
+import Announcement from '@/components/Announcement'
 
 const AdminPage = () => {
 	return (
@@ -40,6 +41,8 @@ const AdminPage = () => {
 			{/* Right */}
 			<div className="w-full lg:w-1/3 flex flex-col gap-8">
 				<EventCalendar />
+
+				<Announcement />
 			</div>
 		</div>
 	)
